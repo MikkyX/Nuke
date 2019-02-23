@@ -1,0 +1,29 @@
+{
+    "name": "mikkyx/nuke",
+    "description": "Take your website back to day zero",
+    "type": "library",
+    "license": "GNU GPLv3",
+    "support": {
+        "issues": "https://github.com/mikkyx/nuke/issues",
+        "source": "https://github.com/mikkyx/nuke"
+    },
+    "authors": [
+        {
+            "name": "Michael Price",
+            "email": "mikkyx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "laravel/framework": "5.5.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "MikkyX\\Nuke\\": "src/"
+        }
+    }
+}
